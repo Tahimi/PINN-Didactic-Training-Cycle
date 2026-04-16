@@ -36,7 +36,7 @@ Universidade Federal de Alagoas (UFAL), Brazil
 
 Open the notebook in Jupyter or Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/PINN-Complete-Training-Cycle/blob/main/PINN_Didactic_Notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tahimi/PINN-Didactic-Training-Cycle/blob/main/PINN_Didactic_Notebook.ipynb)
 
 ## Citation
 

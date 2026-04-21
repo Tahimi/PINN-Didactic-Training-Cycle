@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Supplementary Materials — PINN Didactic 
+    Derivation</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 { font-size: 1.4em; border-bottom: 1px solid #ccc; 
+             padding-bottom: 8px; }
+        h2 { font-size: 1.1em; margin-top: 24px; }
+        table { border-collapse: collapse; width: 100%; 
+                margin: 16px 0; }
+        th, td { border: 1px solid #ccc; padding: 8px 12px; 
+                 text-align: left; vertical-align: top; }
+        th { background-color: #f5f5f5; }
+        code { background-color: #f0f0f0; padding: 2px 4px; 
+               font-size: 0.95em; }
+    </style>
+</head>
+<body>
+
+<h1>Supplementary Materials</h1>
+
+<p><strong>Title:</strong> Physics-Informed Neural Networks: A Didactic Derivation of the Complete Training Cycle</p>
+
+<p><strong>Journal:</strong> SIAM Review, Education 
+Section</p>
+
+<h2>Contents</h2>
+
+<table>
+<tr>
+    <th>File</th>
+    <th>Description</th>
+</tr>
+<tr>
+    <td><code>PINN_Didactic_Notebook.ipynb</code></td>
+    <td>Interactive Jupyter Notebook (Python 3 / PyTorch). 
+    Part&nbsp;1 reproduces every manual calculation from 
+    Sections&nbsp;2&ndash;3. Part&nbsp;2 executes the full 
+    training and validation pipeline and generates all 
+    publication figures.</td>
+</tr>
+<tr>
+    <td><code>pinn_trained_model.pt</code></td>
+    <td>Trained model checkpoint containing the 22 
+    optimized parameters (PyTorch state_dict format).</td>
+</tr>
+<tr>
+    <td><code>pinn_results.json</code></td>
+    <td>Evaluation metrics and pointwise predictions. 
+    All values in Section&nbsp;4 are read directly from 
+    this file.</td>
+</tr>
+<tr>
+    <td><code>pinn_loss_history.npz</code></td>
+    <td>Epoch-by-epoch loss history (NumPy compressed 
+    archive). Used to generate the loss convergence 
+    figure.</td>
+</tr>
+<tr>
+    <td><code>figures/</code></td>
+    <td>Publication-quality figures in PDF format.</td>
+</tr>
+<tr>
+    <td><code>README.txt</code></td>
+    <td>Requirements, installation instructions, and 
+    usage guide.</td>
+</tr>
+</table>
+
+<h2>Requirements</h2>
+<ul>
+    <li>Python &ge; 3.8</li>
+    <li>PyTorch &ge; 1.10</li>
+    <li>NumPy &ge; 1.20</li>
+    <li>Matplotlib &ge; 3.4</li>
+</ul>
+
+<h2>Reproducibility</h2>
+<p>A fixed random seed ensures identical results across 
+platforms. The notebook can also be executed directly in 
+Google Colab without any local installation.</p>
+
+</body>
+</html>
